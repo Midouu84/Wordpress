@@ -1,0 +1,468 @@
+
+body{
+	background-color:#EEE;
+	
+}
+/*start header */
+
+/*menu float*/
+
+.iii{
+	font-size:x-large;
+	font-family:bold;
+	color:#F30021;
+}
+.ttt{
+	font-size:x-large;
+	font-family:bold;
+	color:#ffffdc;
+}
+.aaa{
+	font-size:x-large;
+	font-family:bold;
+	color:#9FEE00;
+}
+
+
+
+
+/*end header*/
+
+/* start mai-posts*/
+
+.main-home-page .main-post{
+	padding:20px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	margin-top:20px;
+margin-bottom:20px;
+	
+	
+}
+.main-home-page .main-post h3{
+	margin:0 0 10px;
+	font-weight:bold;
+	color:#5f674f;
+	letter-spacing:-1px;
+}
+.main-home-page .main-post img{
+	display:block;
+	margin:auto;
+}
+.main-post .post-content{
+	line-height:1.7;
+	color:#888;
+}
+
+.main-home-page .main-post i{
+	color:#949a88;
+}
+.main-home-page .main-post .post-author,
+.main-home-page .main-post .post-date, 
+.main-home-page .main-post .post-comments{
+	font-size:12px;
+}
+/*post page*/
+
+.main-home-page .post-paginat{
+margin:20px auto 30px;
+width:400px;
+text-align:center;
+}
+.main-home-page .post-paginat a,
+.main-home-page .post-paginat span{
+display:inline-block;
+padding:5px 50px;
+background-color:#343a40;
+border-radius:5px;
+margin:10px;
+color:#FFF;
+-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+-o-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+}
+.main-home-page .post-paginat a:first-child,
+.main-home-page .post-paginat span:first-child{
+float:left;
+margin-left:15px;
+}
+.main-home-page .post-paginat a:last-child,
+.main-home-page .post-paginat span:last-child{
+float:right;
+margin-left:15px;
+}
+.main-home-page .post-paginat span{
+opacity:.5;
+cursor:not-allowed;
+}
+.main-home-page .post-paginat .fa-chevron-left{
+margin-right:10px;
+}
+.main-home-page .post-paginat .fa-chevron-right{
+margin-left:10px;
+}
+.main-home-page .post-paginat a:hover{
+background:#007bffd1;
+color:#FFF;
+text-decoration:none;
+}
+
+
+/* end mai-posts*/
+
+/* start single-post*/
+.single-home-page .main-post{
+	position:relative;
+	padding:20px;
+	background-color:#fff;
+	border:1px solid #eee;
+	margin-top:40px;
+margin-bottom:60px;
+	
+	
+}
+
+.single-home-page .main-post .post-edit-link{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:10px;
+	background-color:#EEE;
+	border-radius:0 0 0 10px;
+}
+.single-home-page .main-post .post-edit-link i{
+	color:#3337ab7;
+	margin-left:5px;
+}
+
+
+.single-home-page .main-post h3{
+	margin:0 0 10px;
+	font-weight:bold;
+	color:#5f674f;
+	letter-spacing:-1px;
+}
+.single-home-page .main-post img{
+	display:block;
+	margin:auto;
+}
+.single-home-page .main-post .post-content{
+	line-height:1.8;
+	color:#888;
+}
+
+.single-home-page .main-post i{
+	color:#949a88;
+}
+.single-home-page .main-post .post-author,
+.single-home-page .main-post .post-date, 
+.single-home-page .main-post .post-comments{
+	font-size:12px;
+}
+/*post page*/
+
+.single-home-page .post-paginat{
+margin:auto;
+
+text-align:center;
+}
+.single-home-page .post-paginat a,
+.single-home-page .post-paginat span{
+display:inline-block;
+padding:6px 10px;
+background-color:#343a40;
+border-radius:5px;
+margin:-42px;
+color:#FFF;
+-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+-o-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+}
+.single-home-page .post-paginat a:first-child,
+.single-home-page .post-paginat span:first-child{
+float:left;
+
+}
+.single-home-page .post-paginat a:last-child,
+.single-home-page .post-paginat span:last-child{
+float:right;
+
+}
+.single-home-page .post-paginat span{
+opacity:.5;
+cursor:not-allowed;
+}
+
+.single-home-page .post-paginat a:hover{
+background:#007bffd1;
+color:#FFF;
+text-decoration:none;
+}
+
+/* end single-post*/
+
+/* start authoer info */
+.author-info h4{
+	margin:12px 0 10px 0;
+	color:#676767;
+	font-size:26px;
+}
+.author-info h4 .nickname{
+	color:#17a2b8;
+}
+.author-info p{
+	font-size:18px;
+	line-height:1.6;
+	color:#888;
+}
+.back-author{
+	
+	background-color:#FFF;
+	padding:20px;
+	border:1px solid #ddd;
+}
+
+/*end author info*/
+
+/*start comments list*/
+.comments-count{
+	padding:10px;
+	background-color:#e2e2e2;
+	font-size:24px;
+	margin-top:0;
+	font-weight:bold;
+	color:#909090;
+	border:1px solid #dedede;
+}
+.p-comments_list ul,
+.p-comments_list ol
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.p-comments_list .comment img{
+	padding:3px;
+	border:1px solid #DDD;
+	background-color:#FFF;
+	margin-bottom:5px;
+	margin-right:5px;
+}
+.p-comments_list .comment .comment-meta{
+	font-size:12px;
+	color:#777;
+	
+}
+.p-comments_list .comment p{
+	margin-top:8px;
+	color:#6f6f6f;
+}
+.p-comments_list .comment .says{
+	display:none;
+}
+.p-comments_list >.comment{/* level 1*/
+	
+	background-color:#FFF;
+	padding:10px;
+	border:1px solid #DDD;
+	margin-bottom:10px;
+}
+.p-comments_list >.comment >.children> .comment{/* level 2*/
+	padding:10px;
+	background-color:#EEE;
+	margin-top:10px;
+	border:1px solid #CCC;
+	
+}
+.p-comments_list >.comment >.children> .comment .comment{/* level 3*/
+	padding:10px;
+	background-color:#DDD;
+	margin-top:10px;
+	border:1px solid #AAA;
+	
+}
+.comment-respond .comment-reply-title{
+	font-weight:bold;
+	color:#9a9a9a;
+	text-align:center;
+	background-color:#E3E3E3;
+	padding: 15px;
+}
+.comment-respond .comment-reply-title{
+	background-color:#E3E3E3;
+	padding:15px;
+}
+.comment-respond .logged-in-as{
+	margin:0px 5px 10px;
+}
+.comment-respond label{
+	display:block;
+	color:#888;
+	margin:0 0 10px 6px;
+}
+.comment-respond label .required{
+	
+color:#fd5555;
+}
+.comment-respond  input[type="text"],
+.comment-respond textarea{
+	height:40px;
+	width:500px;
+	max-width:100%;
+	padding:10px;
+	border:1px solid #CCC;
+	border-radius:5px;
+}
+.comment-respond textarea{
+	height:200px;
+	resize:none;
+}
+.comment-respond input[type="submit"]{
+	margin-top:6px;
+}
+.comments-separator{
+	padding:20px 20px 10px;
+
+}
+
+/*end comments list*/
+
+/*start footer*/
+.footer{
+	background-color:#343a40;
+	color:#aaa;
+	padding:20px;
+	bottom:0;
+	left:0;
+	width:100%;
+
+	
+}
+/*end footer*/
+/*start author page */
+.back-h3{
+	
+    padding: 15px;
+	margin-bottom: 20px;
+	text-align:center;
+}
+.author-page .profile-header{
+	font-size:60px;
+	margin:30px 0;
+	color:#666;
+	font-weight:bold;
+	letter-spacing:-3px;
+}
+.author-page .author-main-info{
+	background-color:#fff;
+	padding:4px 20px;
+	font-size:18px;
+	border:1px solid #ddd;
+	margin-bottom:20px;
+}
+.author-page .author-main-info .author-names{
+	line-height:1.5;
+	color:#666;
+	margin-top:10px;
+}
+.author-page .author-main-info .author-names span{
+	display:inline-block;
+	min-width:120px;
+}
+.author-page .author-main-info hr{
+margin-top:10px;
+margin-bottom:10px;	
+	
+}
+.p1{
+	color:#777;
+	line-height:1.5;
+	letter-spacing:1px;
+	margin-bottom:0;
+	overflow:hidden;
+}
+.author-page .author-stats .stats-comments{
+	background-color:#fff;
+	padding:20px;
+	font-size:15px;
+	border:1px solid #ddd;
+	margin-bottom:20px;
+	text-align:center;
+}
+.author-page .author-stats .stats-comments span{
+	
+	display:block;
+	font-size:45px;
+	margin-top:10px;
+}
+.author-page .post-title-author{
+	margin:0 0 20px;
+	padding:20px 30px;
+	font-weight:bold;
+	color:#717171;
+}
+.author-page .author-posts h3{
+	margin:10px 0 5px;
+	font-weight:bold;
+}
+.author-page .author-posts{
+	padding:20px;
+	background-color:#FFF;
+	overflow:hidden;
+	margin-bottom:20px;
+	border:1px solid #e4e4e4;
+}
+
+.author-page .author-posts .img-thumbnail{
+	max-width:80%;
+}
+.fas{
+	color:#888;
+}
+
+.back-com{
+	    
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center
+}
+/*end author page */
+
+
+/*start pagination*/
+.postpagination {
+    clear: both;
+    margin: 20px 10px;
+    line-height: 2.1em;
+    font-size: 1.2em;
+    text-align: right;
+	
+}
+    .postpagination span {
+        padding: 6px 10px;
+		
+    }
+    .postpagination a {
+        padding: 6px 10px;
+        margin: 0 6px;
+        border: 1px solid transparent;
+        text-decoration: none;
+		background-color:#343A40;
+		color:#fff;
+		-webkit-transition:all .4s ease-in-out;
+-moz-transition:all .4s ease-in-out;
+-o-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out;
+    }
+    .postpagination a:hover {
+        background-color:#ffc107;
+    }
+
+/*end pagination*/
+
+
+
+
+
